@@ -4,7 +4,7 @@
   "main": "src/server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node init && node src/server.js",
     "seed": "node src/seed.js"
   },
   "dependencies": {
